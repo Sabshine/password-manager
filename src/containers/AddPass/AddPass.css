@@ -1,0 +1,24 @@
+.AddPass {
+    margin: 100px auto;
+    width: 80%;
+    text-align: center;
+    background: white;
+    text-decoration: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.AddPass h4 {
+    font-size: 20px;
+    margin: 15px 0 10px 0;
+    color: #333;
+}
+
+@media (min-width: 600px) {
+    .AddPass{
+        width: 500px;
+        margin-top: 120px;
+    }
+}

@@ -1,0 +1,27 @@
+.Auth {
+  margin: 150px auto;
+  width: 80%;
+  text-align: center;
+  background: white;
+  text-decoration: none;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.Auth h4 {
+font-size: 20px;
+margin: 15px 0 10px 0;
+color: #333;
+}
+
+.Error{
+  color: #991111;
+}
+
+@media (min-width: 600px) {
+  .Auth {
+      width: 500px;
+  }
+}

@@ -1,0 +1,32 @@
+.DrawerToggle {
+    width: 40px;
+    height: 70%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.Menu {
+    width: 80%;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 2px 0;
+}
+
+@media (min-width: 635px) {
+    .DrawerToggle {
+        display: none;
+    }
+
+    .ExtraDiv {
+        display: none;
+    }
+}

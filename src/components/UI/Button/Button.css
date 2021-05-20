@@ -1,0 +1,65 @@
+.Button {
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+*,*:focus,*:hover{
+    outline:none;
+}
+
+.Button:disabled {
+    border-color: #9b9b9b;
+    color:  #9b9b9b;
+    background-color: white;
+    cursor: not-allowed;
+}
+
+.Button[disabled]:hover{
+    border-color: #9b9b9b;
+    color:  #9b9b9b;
+    background-color: white;
+    cursor: not-allowed;
+}
+
+.Success {
+    border-color: #11998e;
+    color: #11998e;
+}
+
+.Success:hover {
+    background-color: #11998e;
+    color: white;
+}
+
+.Danger {
+    border-color: #991111;
+    color: #991111;
+}
+
+.Danger:hover {
+    background-color: #991111;
+    color: white;
+}
+
+.Text {
+    border: none;
+    background-color: white;
+    color:  #9b9b9b;
+    padding: 0 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.Text:hover {
+    color: #11998e;
+}

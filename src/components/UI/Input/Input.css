@@ -1,0 +1,77 @@
+.Input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Label {
+    display: block;
+    margin-bottom: 8px;
+    padding: 0 7px;
+    position: absolute;
+    top: 0;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+}
+
+.InputElement {
+    font-family: inherit;
+    width: 80%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+/* .InputElement::placeholder {
+    color: transparent;
+} */
+
+.InputElement:placeholder-shown ~ .Label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+
+/* .Label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+} */
+
+.InputElement:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+}
+
+.InputElement:focus ~ .Label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #11998e;
+    font-weight: 700;
+}
+
+.InputElement:required, .InputElement:invalid {
+    box-shadow: none;
+}
+
+.Invalid {
+    /* border: 1px solid red; */
+    background-color: #ffeeee;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #991111, #ef3838);
+    border-image-slice: 1;
+}

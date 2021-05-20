@@ -1,0 +1,89 @@
+.GeneratePass {
+    margin: 100px auto;
+    width: 80%;
+    text-align: center;
+    background: white;
+    text-decoration: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.GeneratePass h4 {
+  font-size: 20px;
+  margin: 15px 0 10px 0;
+  color: #333;
+}
+
+.PassInv {
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  background-color: #e3e3e3;
+  width: 60%;
+  border-radius: 5px;
+  color: #e3e3e3;
+}
+
+.Pass {
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  background-color: #e3e3e3;
+  width: 60%;
+  border-radius: 5px;
+  word-wrap:break-word;
+}
+
+.Slider {
+  -webkit-appearance: none;
+  width: 60%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #e3e3e3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.Slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background:  #38ef7d;
+  cursor: pointer;
+}
+
+.Slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #11998e;
+  cursor: pointer;
+}
+
+.Output {
+  color: #11998e;
+  font-weight: bold;
+}
+
+.Center {
+  margin: auto;
+  padding-top: 20px;
+}
+
+.Text {
+  margin-bottom: -10px;
+  color: #9b9b9b;
+}
+
+@media (min-width: 600px) {
+  .GeneratePass{
+      width: 500px;
+      margin-top: 120px;
+  }
+}
